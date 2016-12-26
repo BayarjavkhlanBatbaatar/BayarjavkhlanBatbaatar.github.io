@@ -1,7 +1,7 @@
 ## Basic Configuration
 
 languageCode = "en-US"
-baseurl = "http://bayarjavkhlanbatbaatar.github.io/"
+baseurl = "http://bbatbaat.githlab.io/bbatbaat/"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
