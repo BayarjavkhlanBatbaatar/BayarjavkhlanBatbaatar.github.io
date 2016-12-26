@@ -1,0 +1,64 @@
+## Basic Configuration
+
+languageCode = "en-US"
+baseurl = "http://bayarjavkhlanbatbaatar.github.io/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Bayarjavkhlan Batbaatar"
+title = "Bayarjavkhlan Batbaatar"
+
+theme = "hugo-goa-master"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Bayarjavkhlan Batbaatar"
+intro = "Computer Engineering student @ University of Michigan"
+description = "Now @Umich, Founder @Khutuch Project. <br/> \"What is F times 5? It's Fleventy-five.\""
+authorimage = "me.greencard.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "<username>"
+instagram = "<username>"
+linkedin = "<username>"
+twitter = "<username>"
+facebook = "<username>"
+google = "<username>"
+stackoverflow = "<username>"
+email = "javhaaab@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+hightlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
